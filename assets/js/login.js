@@ -73,7 +73,7 @@ $(function () {
                         // 把token值在本地存储中
                         localStorage.setItem("token",res.token)
                        alert("登录成功");
-                    //    location.href="/index.html"// 跳转页面
+                       location.href="/index.html"// 跳转页面
                     }
             }
         });
